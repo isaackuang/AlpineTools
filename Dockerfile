@@ -1,4 +1,4 @@
-FROM isaackuang/alpine-base:3.8.0
+FROM isaackuang/alpine-base:3.16.1
 
 RUN apk --no-cache --progress add \
-    zip git 
+    zip git jq
